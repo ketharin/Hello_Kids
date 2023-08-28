@@ -1,0 +1,41 @@
+body{
+    color: white;
+    background-image:url("bg2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+span{
+    color: red;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    width: 50%;
+    background:#034956;
+    border: 1px solid rgba(242,  133,  0, 0.03);;
+    border-radius: 5px;
+    box-shadow:rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+button{
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid white;
+    background:#f26722;
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
